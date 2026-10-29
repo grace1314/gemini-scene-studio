@@ -1,0 +1,29 @@
+{
+  "device": {
+    "name": "Orbbec Gemini 305"
+  },
+  "notes": [
+    "Rectified stereo PNGs; privacy masks do not resize or crop images",
+    "Public research demo; not a metrology reference"
+  ],
+  "preset": "Dual Color Streams",
+  "privacy": {
+    "method": "deterministic local pixelation",
+    "redacted": true,
+    "removed_metadata": "serial numbers, timestamps, source paths and raw frame identifiers"
+  },
+  "profile": {
+    "fps": 30,
+    "height": 800,
+    "saved_png": "RGB lossless (OpenCV BGR encoded to PNG)",
+    "transport": "YUYV",
+    "width": 1280
+  },
+  "settings_sdk_units": {
+    "auto_exposure": false,
+    "auto_white_balance": false,
+    "exposure": 74,
+    "gain": 20,
+    "white_balance": 4600
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "Gemini 305 public desk demo",
+  "privacy_redacted": true,
+  "resolution": [1280, 800],
+  "frames": 20,
+  "colmap": {
+    "registered_frames": 20,
+    "sparse_points": 1173,
+    "mean_reprojection_px": 1.0839568700184925,
+    "metric_scale": 0.05898842639237454,
+    "scale_inliers": 3701
+  },
+  "cloud": {
+    "points": 165418,
+    "voxel_size_m": 0.002
+  },
+  "tsdf": {
+    "vertices": 37103,
+    "triangles": 71424,
+    "voxel_size_m": 0.003,
+    "sdf_trunc_m": 0.012
+  },
+  "gaussian_baseline": {
+    "gaussians": 80000,
+    "iterations": 3000,
+    "seconds": 81.22393131256104,
+    "mean_train_psnr_db": 8.258686590194703,
+    "note": "SH0 fixed-density research baseline; included for reproducibility, not as a quality claim"
+  }
+}

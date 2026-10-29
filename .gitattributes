@@ -1,0 +1,6 @@
+*.png binary
+*.ply binary
+*.splat binary
+*.mp4 binary
+*.tiff binary
+*.npy binary

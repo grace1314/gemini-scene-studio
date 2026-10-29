@@ -1,0 +1,49 @@
+{
+  "description": "Normalized rectangles applied identically to rectified left/right PNGs. Masks cover people, work screens, and printed card text while preserving image size and calibration.",
+  "frames": {
+    "0000": [{"rect": [0.48, 0.51, 0.12, 0.13], "reason": "printed card"}],
+    "0001": [{"rect": [0.51, 0.52, 0.12, 0.13], "reason": "printed card"}],
+    "0002": [{"rect": [0.53, 0.51, 0.11, 0.13], "reason": "printed card"}],
+    "0003": [{"rect": [0.55, 0.53, 0.13, 0.13], "reason": "printed card"}],
+    "0004": [{"rect": [0.56, 0.54, 0.14, 0.13], "reason": "printed card"}],
+    "0005": [{"rect": [0.54, 0.54, 0.14, 0.13], "reason": "printed card"}],
+    "0006": [],
+    "0007": [
+      {"rect": [0.00, 0.00, 0.57, 0.48], "reason": "person and laptop"},
+      {"rect": [0.38, 0.64, 0.25, 0.25], "reason": "printed card"}
+    ],
+    "0008": [
+      {"rect": [0.00, 0.00, 0.72, 0.48], "reason": "person and laptop"},
+      {"rect": [0.31, 0.64, 0.24, 0.24], "reason": "printed card"}
+    ],
+    "0009": [
+      {"rect": [0.00, 0.00, 0.75, 0.50], "reason": "people and work screens"},
+      {"rect": [0.23, 0.65, 0.24, 0.23], "reason": "printed card"}
+    ],
+    "0010": [
+      {"rect": [0.00, 0.00, 1.00, 0.44], "reason": "people and work screens"},
+      {"rect": [0.76, 0.35, 0.24, 0.31], "reason": "person"},
+      {"rect": [0.16, 0.60, 0.20, 0.22], "reason": "printed card"}
+    ],
+    "0011": [
+      {"rect": [0.28, 0.00, 0.72, 0.43], "reason": "faces and work screens"}
+    ],
+    "0012": [
+      {"rect": [0.52, 0.00, 0.48, 0.28], "reason": "person and work screens"},
+      {"rect": [0.40, 0.40, 0.13, 0.11], "reason": "printed card"}
+    ],
+    "0013": [
+      {"rect": [0.85, 0.00, 0.15, 0.28], "reason": "person and screen"},
+      {"rect": [0.43, 0.43, 0.14, 0.13], "reason": "printed card"}
+    ],
+    "0014": [{"rect": [0.46, 0.28, 0.13, 0.14], "reason": "printed card"}],
+    "0015": [{"rect": [0.42, 0.24, 0.11, 0.14], "reason": "printed card"}],
+    "0016": [{"rect": [0.46, 0.25, 0.11, 0.16], "reason": "printed card"}],
+    "0017": [{"rect": [0.45, 0.32, 0.11, 0.15], "reason": "printed card"}],
+    "0018": [
+      {"rect": [0.80, 0.00, 0.20, 0.40], "reason": "person and screen"},
+      {"rect": [0.42, 0.27, 0.11, 0.17], "reason": "visible printed card text"}
+    ],
+    "0019": [{"rect": [0.52, 0.25, 0.12, 0.17], "reason": "printed card"}]
+  }
+}

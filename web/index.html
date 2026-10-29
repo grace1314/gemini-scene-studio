@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1016">
+  <title>Gemini Scene Studio</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+</head>
+<body>
+  <header class="app-bar">
+    <a class="brand" href="#/capture"><span class="brand-mark">◈</span><span>GEMINI SCENE <small>STUDIO</small></span></a>
+    <div class="app-bar-right"><span class="local-pill"><i></i> LOCAL · OFFLINE</span><span id="connection">连接中</span></div>
+  </header>
+  <main id="main"><div class="empty">正在连接本地 C++ 服务…</div></main>
+  <footer>GEMINI 305 · METRIC RGBD · GEOMETRY-CONSTRAINED 3DGS</footer>
+  <div id="toast" class="toast" role="status"></div>
+  <dialog id="scene-dialog">
+    <form id="create-form">
+      <div class="eyebrow">NEW SCENE</div><h2>新建独立场景</h2>
+      <p>新场景会建立独立的数据、运行记录和导出目录，不会覆盖当前场景。</p>
+      <label>场景名称<input id="scene-name" required maxlength="80" placeholder="例如：桌面纸盒 · 正面环绕"></label>
+      <label>采集目标 / 备注<input id="scene-description" maxlength="160" placeholder="例如：保留桌面上的纸盒，拍摄约 15 帧"></label>
+      <div class="scene-rules"><span>最多 20 组无损双目帧</span><span>默认全帧配准</span><span>训练范围可单独框选</span></div>
+      <div class="dialog-actions"><button type="button" class="button ghost" id="close-dialog">取消</button><button class="button primary">创建场景</button></div>
+    </form>
+  </dialog>
+  <script type="module" src="/app.js?v=20261028-splatfocus1"></script>
+</body>
+</html>
