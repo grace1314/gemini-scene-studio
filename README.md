@@ -107,3 +107,7 @@ python3 tests/smoke.py --scene <场景ID> --gpu
 - [3DGS 质量与几何升级路线](docs/3DGS_ROADMAP.md)
 
 详细设计历史见[实施计划](docs/PLAN.md)，页面设计见[UI_SPEC](docs/UI_SPEC.md)。
+
+## 许可证
+
+项目自研代码和公开示例按 [MIT License](LICENSE) 发布。`3rdparty/` 中的组件仍分别遵循各自的上游许可证。
